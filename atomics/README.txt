@@ -6,9 +6,9 @@ To see the generated machine code, compile with:
 
 nvcc --cubin --gpu-architecture sm_xx <filename>
 
-then disassemble the compiled microcode with cudumpobj:
+then disassemble the compiled microcode with cuobjdump:
 
-cudumpobj --dump-sass <filename>.cubin
+cuobjdump --dump-sass <filename>.cubin
 
 
 Memory     Operand              File
